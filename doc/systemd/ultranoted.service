@@ -1,0 +1,14 @@
+[Unit]
+Description=UltraNote Daemon
+After=network.target
+
+[Service]
+User=YOUR_USER
+Group=YOUR_USER
+
+ExecStart=/usr/bin/ultranoted --data-dir=/home/YOUR_USER/.UltraNote
+GuessMainPID=no
+
+[Install]
+WantedBy=multi-user.target
+

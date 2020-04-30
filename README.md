@@ -1,3 +1,5 @@
+## Project is community-driven
+
 ## Building UltraNote
 ![alt text](https://www.ultranote.org/wp-content/uploads/2019/03/ultra.png)
 

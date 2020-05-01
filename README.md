@@ -1,5 +1,7 @@
 ## Project is community-driven
 
+Please feel free to fork, create pools and submit PR requests.
+
 ## Building UltraNote
 ![alt text](https://www.ultranote.org/wp-content/uploads/2019/03/ultra.png)
 

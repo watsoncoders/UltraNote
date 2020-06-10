@@ -155,6 +155,7 @@ const std::initializer_list<const char*> SEED_NODES = {
    "136.244.105.109:32000",
    "195.178.167.189:32000",
    "208.167.255.71:32000",
+   "superblockchain.con-ip.com:32000",
    
 };
 

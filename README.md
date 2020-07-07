@@ -25,7 +25,7 @@ Run these commands:
 ```
 cd ~
 sudo apt-get install build-essential git cmake libboost-all-dev libreadline-dev
-git clone https://UltraNote@bitbucket.org/xunteam/ultranote.git 
+git clone https://github.com/xun-project/UltraNote.git 
 cd UltraNote
 mkdir build
 cd build
@@ -70,7 +70,7 @@ Building with Clang: it may be possible to use Clang instead of GCC, but this ma
 ```
 brew install git cmake boost rocksdb readline
 brew link --force readline
-git clone https://UltraNote@bitbucket.org/xunteam/ultranote.git
+git clone https://github.com/xun-project/UltraNote.git
 cd UltraNote
 mkdir build
 cd build

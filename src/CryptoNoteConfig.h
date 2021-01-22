@@ -19,22 +19,22 @@ namespace CryptoNote {
 
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 1200; // seconds
 
-const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
+const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 50000000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x1a2638; // addresses start with "Xun3"
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x1b2638; // addresses start with "Xun3"
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 10;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
-const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V2         = 6 * 60 * 2;
+const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V2         = 60 * 60 * 2;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V3         = DIFFICULTY_TARGET * 3;
 const uint64_t CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE           = 10;
 
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V2          = 11;
 
-const uint64_t MONEY_SUPPLY				                     = UINT64_C(2100000000000000000);
+const uint64_t MONEY_SUPPLY				                     = UINT64_C(21000000000000000);
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
@@ -114,9 +114,9 @@ const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(1500) *
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(264000));
 
 const char     CRYPTONOTE_NAME[]                             = "UltraNote";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180a3c347029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101677642503be486533f0aacb7ccce24a3d4931635fa700d62bf6b383cf26436e9";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180a3c567029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101677642503be486533f0aacb7ccce24a3d4931635fa700d62bf6b383cf26436e9";
 const uint32_t GENESIS_NONCE                                 = 70;
-const uint64_t GENESIS_TIMESTAMP                             = 1496764095;
+const uint64_t GENESIS_TIMESTAMP                             = 1495664095;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
